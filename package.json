@@ -1,0 +1,19 @@
+{
+  "name": "semantic-release-cli-demo",
+  "version": "0.0.0-development",
+  "description": "",
+  "repository": "https://github.com/esimons/semantic-release-cli-demo.git",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node .",
+    "semantic-release": "semantic-release"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "keytar": "^4.3.0"
+  },
+  "devDependencies": {
+    "semantic-release": "^15.12.3"
+  }
+}
