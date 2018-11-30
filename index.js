@@ -6,7 +6,7 @@ Promise.all([
   keytar.findCredentials(key("circleci")),
   keytar.findCredentials(key("npm")),
   keytar.findCredentials(key("github"))
-]).then((circleci, npm, github) => {
+]).then(([circleci, npm, github]) => {
   if (circleci.length) {
     console.log("I just stole your circleci credentials.", JSON.stringify(circleci));
   }
